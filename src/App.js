@@ -7,16 +7,6 @@ import LogoutHooks from './components/LogoutHooks';
 
 function App() {
   return (
-    <div className="App">
-      <h2>Plusrep</h2>
-      <Login />
-      {/* <br />
-      <Logout />
-      <h2>The Hooks way</h2>
-      <LoginHooks />
-      <LogoutHooks /> */}
-      <br />
-    </div>
   );
 }
 

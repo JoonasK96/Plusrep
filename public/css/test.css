@@ -1,0 +1,25 @@
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: auto;
+    height: auto;
+    /* Center child horizontally*/
+    display: flex;
+    justify-content: center;
+  }
+
+.textbox {
+    color: aquamarine;
+    width: 300px;
+    border: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+.btn{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;  
+}

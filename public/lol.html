@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf8">
+    <title>Memepage</title>
+    <link href="./css/test.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body class = "container">
+      <!-- login -->
+      <div class="login-box">
+        <h1>Login</h1>
+        <form action="http://localhost:3000/auth" method="POST">
+        <div class="textbox">
+          <i class="user-box"></i>
+          <input type="text" name="email" placeholder="Email">
+        </div>
+      
+        <div class="textbox">
+          <i class="password-box"></i>
+          <input type="password" name="password" placeholder="Password">
+        </div>
+      
+        <input type="submit" class="btn" value="Sign in">
+      </form>
+
+        <input id="reg" type="button" class="btn" value="Register">
+      </div>
+        <!-- register -->
+        <div class="register-box">
+          <h1>Register</h1>
+          <form action="http://localhost:3000/user" method="post" id="addUserForm">
+          <div class="textbox">
+            <i class="user-box"></i>
+            <input type="text" name="name" placeholder="Username" required>
+          </div>
+  
+          <div class="textbox">
+            <i class="email-box"></i>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+  
+          <div class="textbox">
+            <i class="password-box"></i>
+            <input type="password" name="password" placeholder="Password" pattern="(?=.*[A-Z]).{8,}" required>
+          </div>
+  
+          <input type="submit" class="btn" value="Create account">
+        </form>
+  
+        </div>
+<!--End of menubar code-->
+
+
+
+<script src="./js/serialize.js"></script>
+<!--<script src="./js/main2.js"></script> -->
+<script defer src="js/login.js"></script>
+</body>
+</html>
